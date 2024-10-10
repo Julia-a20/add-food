@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ADD FOOD</title>
+</head>
+<body>
+   <form>
+    <table border="1" width="100%">
+        <tr> 
+            <td colspan="2" align="center">
+            <h1>Add Food </h1>
+        </td>
+        <td align="center">
+            <button> &#9745;
+                <br>SAVE
+            </button>
+        </td>
+        <tr>
+            <td rowspan="2" width="50%">
+                <input type="image" src="placeholder-image.jpg" width="50%">
+                <br>
+                <input type="text" placeholder="dish name">
+                <br>
+                <textarea placeholder="dish describtion" cols="22"></textarea>
+            </td>
+            <td>
+                <h2 align="center">ingredients</h2>
+                <input type="text" list="ingredients">
+                <datalist id="ingredients">
+                    <option value="fish"></option>
+                    <option value="meat"></option>
+                    <option value="eggs"></option>
+                    <option value="milk"></option>
+                    <option value="cheese"></option>
+                </datalist>
+                    <input type="text" size="4">gramm
+                    <br>
+                    <select>
+                        <option> -select- </option>
+                        <option>fish</option>
+                        <option>meat</option>
+                        <option>eggs</option>
+                        <option>cheese</option>
+                        <option>milk</option>
+                        <input type="text" size="4">gramm
+                        <br>
+                        <select>
+                            <option> -select- </option>
+                            <option>fish</option>
+                            <option>meat</option>
+                            <option>eggs</option>
+                            <option>cheese</option>
+                            <option>milk</option>
+                            <input type="text" size="4">gramm
+            </td>
+            <td>
+                <h2> allergens</h2>
+                <input type="checkbox">honey
+                <br>
+                <input type="checkbox">peanuts
+                <br>
+                <input type="checkbox">sesame
+        </td>
+        </tr>
+        <tr>
+            <td>
+                <h2 align="center">pricing</h2>
+                <label>
+                    <strong>standart prise</strong>
+                <input type="text"size="5"> MDL <br>
+                </label>
+                <label>
+                    <strong>discount price</strong>
+                <input type="text" size="5"> MDL <br>
+                </label>
+            </td>
+            <td>
+                <h2 align="center">delivery</h2>
+                <input type="checkbox">within the city <br>
+                <input type="checkbox">outside the city <br>
+                <input type="checkbox"> no delivery
+            </td>
+        </tr>
+
+        </tr>
+    </table>
+   </form>
+</body>
+</html>
